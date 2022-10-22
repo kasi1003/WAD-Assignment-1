@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .logo{
+    margin-left: 50px;
+  }
+  /*nav bar css*/
+  .header{
+    position:relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    transition: 0.3s;
+  
+  }
+  .logo a{
+    display: block;
+  
+  }
+  .logo a img{
+    display: block;
+    width: 100%;
+  }
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .menu li{
+    list-style-type: none;
+  }
+  .menu li a{
+    color:rgb(0, 83, 248);
+    text-decoration: none;
+    display: block;
+    padding: 40px 25px;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.3
+  }
+  /*navbar items hover*/
+  .menu li a:hover{
+    box-shadow: 0 -5px 0px rgb(1, 65, 255) inset,
+                500px 0 0 rgb(255, 255, 255) inset;
+    padding: 35px 25px 45px 25px;
+    
+  }
+  .content-container{
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .header-text{
+    color:rgb(1, 65, 255);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-bottom: 1px solid rgb(1, 65, 255);
+    padding-bottom: 5px;
+  }
+  .subtext{
+    color:rgb(1, 65, 255); 
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10%
+  }
